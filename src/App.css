@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to right, blue, violet);
+}
+
+.button{
+  margin: 4px;
+  width: 3vw;
+}
+
+.button:hover{
+  background-color: rgb(61, 240, 61);
+}
+
+#Error{
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin: 0 10vw 0 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+h1{
+  color: #ffffff;
+margin: 3vh;
+text-align: center;
+text-decoration: underline;
+
+}
+
+.InputArea{
+  display: flex;
+justify-content: center;
+justify-items: center;
+
+}
+
+.InputField{
+  height: 3.5vh;
+width: 25vh;
+background-image: linear-gradient(to left, rgb(233, 76, 102), rgb(75, 3, 75) );
+color: rgb(255, 255, 255);
+
+
+}
+
+.button{
+  margin: 6px;
+width: 3vw;
+height: 2.5vh;
+background-color: rgb(1, 1, 233);
+color: white;
+}
+
+.close{
+  height: 2.5vh;
+  width: 2.8vw;
+  text-align: center;
+  float: right;
+  margin: 0 1vw 0 0;
+  overflow: hidden;
+}
+.Save{
+  height: 2.5vh;
+  width: 2.8vw;
+  text-align: center;
+  float: right;
+  margin: 0 1vw 0 0;
+  overflow: hidden;
+}
+.Edit{
+  height: 2.5vh;
+  width: 2.8vw;
+  text-align: center;
+  float: right;
+  margin: 0 1vw 0 0;
+  overflow: hidden;
+}
+
+
+
+.Tasks{
+  
+  background-image: linear-gradient(to left, rgb(233, 76, 102), rgb(75, 3, 75) );
+  margin: 1vh;
+  height: 2vh;
+  padding: 0 0 2vh 0;
+
+  height: auto;
+  min-height: 2vh;
+  max-height: fit-content;
+  overflow: hidden;
+  list-style: none;
+
+}
+
+.Edit:hover{
+  background-color: yellow;
+
+}
+
+.close:hover{
+  background-color: red;
+
+}
+
+.Save:hover{
+  background-color: rgb(84, 213, 84);
+}
+
+.Tasktext{
+  color: black;
+  
+  background-image: linear-gradient(to left, rgb(233, 76, 102), rgb(75, 3, 75) );
+  
+  word-wrap: break-word;
+  width: 30vw;
+  color: white;
+  
+
+}
